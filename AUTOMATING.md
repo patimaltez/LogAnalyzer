@@ -19,3 +19,4 @@ Este documento orienta como automatizar a execução dos scripts.
 ### Observações:
 - Esse agendador serve para servidores dedicados à automação durante sua execução.
 - Se você não pode parar de usar determinado servidor e ao mesmo tempo precisa que o script execute, indico usar o Heroku.
+- Repetir esse passo a passo para criar o .bat do script plotlogs_codeforgit.py
