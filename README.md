@@ -45,4 +45,4 @@ Um e-mail será enviado ao final da execução.
 O script plotlogs_codeforgit.py abrirá o arquivo Excel criado e salvará o gráfico PNG na pasta logs/analises.
 
 ## Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está sob a licença GNU Affero General Public License v3.0. Veja o arquivo LICENSE para mais detalhes.
