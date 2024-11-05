@@ -27,7 +27,22 @@ Para instalar as dependências, execute:
 `pip install pandas matplotlib seaborn pywin32`
 
 ## Observações
-- Atenção à extensão dos seus arquivos de log, necessário adaptar o código para o seu cenário
-- Código em inglês, porém comentários e mensagens em português
-- Para automatizar esse projeto, siga as instruções do arquivo ...
+- Atenção à extensão dos seus arquivos de log, necessário adaptar o código para o seu cenário.
+- Código em inglês, porém comentários e mensagens em português.
+- Para automatizar esse projeto, siga as instruções do arquivo AUTOMATING.md
+- Esse projeto foi testado no ambiente Windows com o Microsoft Outlook configurado.
+- 
 
+## Como Usar
+- Coloque os arquivos de log na pasta logs;
+- Configure no Outlook o email a ser utilizado no script;
+- Execute o script analisandologs_codeforgit.py:
+- execute o script plotlogs_codeforgit.py;
+
+Os logs serão processados e o resultado será salvo em um arquivo Excel na pasta logs/analises.
+Os logs processados serão movidos para a pasta logs/logstratados, e logs com erro serão movidos para logs/erroAnaliseLog.
+Um e-mail será enviado ao final da execução.
+O script plotlogs_codeforgit.py abrirá o arquivo Excel criado e salvará o gráfico PNG na pasta logs/analises.
+
+## Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
